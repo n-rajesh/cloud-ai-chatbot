@@ -1,0 +1,37 @@
+# --- Node / Frontend ---
+node_modules/
+dist/
+.vite/
+*.local
+
+# --- Python / Backend ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+instance/
+
+# --- Env files ---
+.env
+.env.local
+.env.production
+
+# --- Database ---
+*.db
+*.sqlite
+*.sqlite3
+backend/chatbot.db
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Logs ---
+*.log
+npm-debug.log*
